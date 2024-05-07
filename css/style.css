@@ -1,0 +1,20 @@
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+.apparition {
+    animation: apparaitre 1s ease-out;
+}
+
+@keyframes apparaitre {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
